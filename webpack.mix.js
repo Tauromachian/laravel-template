@@ -25,4 +25,9 @@ mix
         }
       ]
     }
+  })
+  .browserSync({
+    /*eslint-disable */
+    proxy: process.env.APP_URL,
+    open: false
   });
