@@ -34,17 +34,22 @@ This project has already automatized certain tasks needed to work with vue on th
 
 ## Install
 
-```composer install```
-```npm install```
-```php artisan migrate```
+1. ```composer install```
 
-Use the ```.env.example``` file to create your own ```.env``` file
+2. ```npm install```
 
+3. ```php artisan migrate```
 
-The auth views are already created instead of running 
+4. Use the ```.env.example``` file to create your own ```.env``` file
+
+5. Once the database is set in the ```.env``` file run: ```php artisan key:generate```
+
+The auth views are already created that's why instead of running 
+
 ```php artisan make:auth```
 
-Run:
+We are running running:
+
 ```php artisan migrate```
 
 
