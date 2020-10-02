@@ -32,15 +32,26 @@ This project has already automatized certain tasks needed to work with vue on th
  - A Procfile to allow deployment in heroku
  - A line of code in AppProvider that enforces the use of https to the asset function
 
-The auth views are already created instead of running 
+## Install
+
+1. ```composer install```
+
+2. ```npm install```
+
+3. ```php artisan migrate```
+
+4. Use the ```.env.example``` file to create your own ```.env``` file
+
+5. Once the database is set in the ```.env``` file run: ```php artisan key:generate```
+
+The auth views are already created that's why instead of running 
 
 ```php artisan make:auth```
 
-Run:
+We are running running:
 
 ```php artisan migrate```
 
-On the rest of initial config files just read 
 
 ## Learning Laravel
 
