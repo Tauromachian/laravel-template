@@ -31,6 +31,8 @@ This project has already automatized certain tasks needed to work with vue on th
  - Some basic bootstrap - vue components
  - A Procfile to allow deployment in heroku
  - A line of code in AppProvider that enforces the use of https to the asset function
+ - A metadata partial, that contains boilerplate metadata for the site
+ - browserSync added to the package.json dependencies and configured
 
 ## Install
 
